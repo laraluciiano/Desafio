@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;}
 
 body{
-    background-color: rgb(241, 220, 220);
+    background: linear-gradient(white,white,#fffcdc,#FBD3E9, #BB377D);
 }
 
 header{
@@ -55,10 +55,79 @@ header nav a:hover{
 }
 
 .header2 .logo{
-    line-height: 200px;
+    line-height: ;
     
 }
 
 .header2 nav {
-    line-height: 200px;
+    line-height: 12vh;
+}
+
+.section-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 70vh;
+
+}
+
+.container-inicio h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: 'Cormorant SC', serif;
+
+}
+
+.container-inicio p{
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.5;
+}
+.imagen1 {
+    width: 25%;
+    border-radius: 500px;
+}
+
+.boton1{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(163, 25, 82);
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family: 'Cormorant SC', serif;
+    border-radius: 12px;
+    border-style: none;
+
+}
+
+.boton2{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color:rgb(163, 25, 82); 
+    font-size: 1.4em;
+    font-weight: 900;
+    font-family: 'Cormorant SC', serif;
+    border: rgb(163, 25, 82);
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.descripcion {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 20vh
+}
+
+.descripcion p{
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+
 }
