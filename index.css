@@ -104,6 +104,12 @@ header nav a:hover{
 
 }
 
+.boton1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .boton2{
     width: 30%;
     height: 40px;
@@ -115,6 +121,11 @@ header nav a:hover{
     border: rgb(163, 25, 82);
     border-radius: 12px;
     border-style: solid;
+}
+
+.boton2 a{
+    text-decoration: none;
+    color: rgb(163, 25, 82); 
 }
 
 .descripcion {
