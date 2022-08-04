@@ -77,6 +77,11 @@ header nav a:hover{
 
 }
 
+.container-inicio{
+    margin-left: 150px;
+    width: 50%;
+}
+
 .container-inicio h1{
     font-size: 2.5em;
     font-weight: 900;
@@ -146,3 +151,55 @@ header nav a:hover{
     font-family: 'Oswald', sans-serif;
 
 }
+
+@media (max-width: 1161px) {
+    .header2{
+        height: 160px;
+    }
+}
+
+@media (max-width: 990px){
+    .boton1{
+        min-width: 40%;
+    }
+    .descripcion{
+        min-width: 30%;
+    }
+}
+
+@media (max-width: 956px){
+    .container-inicio{
+        width: 80%;
+        height: 25%;
+        margin-left: 0;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header2{
+        height: 160px;
+    }
+
+    .imagen1{
+        display: none;
+    }
+
+    .boton1{
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media (max-width: 760px){
+    .header2 nav{
+        display: flex;
+        justify-content: right;
+        align-items: flex-end ;
+        line-height: 12vh;
+        margin-top: 50px;
+    }
+}
+
