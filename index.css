@@ -202,6 +202,10 @@ header nav a:hover{
     .boton1,.boton2{
         width: 45%;
     }
+    .container-inicio{
+        margin-top: 3em;
+        font-size: 12px;
+    }
     .descripcion{
         font-size: 12px;
         margin-left: 2em;
@@ -220,13 +224,12 @@ header nav a:hover{
         font-size: 14px;
         width: 90%;
     }
-    .boton1{
+    .boton1, .boton2{
         margin-top: 1.5em;
     }
     .header2{
         width: 100%;
         text-align:center;
-        padding-right: 260px;
         margin-top: -55px
     }
     .logo{
