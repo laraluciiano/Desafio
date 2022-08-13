@@ -249,3 +249,21 @@ header nav a:hover{
         font-size: 12px;
     }
 }
+
+@media (max-width: 564px){
+    .container-inicio{
+        font-size: 11px;
+    }
+    .descripcion{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 443px){
+    .container-inicio{
+        font-size: 9px;
+    }
+    .descripcion{
+        font-size: 10px;
+    }
+}
