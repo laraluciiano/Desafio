@@ -6,7 +6,6 @@ body{
     background-position-y: 30vh;
     background-size: cover;
     font-size: 16px;
-    
 }
 
 header{
@@ -224,6 +223,108 @@ header nav a:hover{
 
 .container-element-info img{
     width: 25%;
+}
+
+.contact-section{
+    margin-left: 5em;
+}
+
+.contact-title{
+    font-size: 3.7em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:'Lato', sans-serif;
+    padding-bottom: 1em;
+}
+
+.contact-information{
+    color: black;
+    font-size: 1.7em;
+    font-weight: 900;
+    font-family:'Lato', sans-serif;
+}
+
+.ubication-contact{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.ubication-contact li{
+    position: relative;
+    padding-left: 2em;
+}
+
+.ubication-contact li:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('./img/ubicacion.png') ;
+    background-size: cover;
+    background-position: center;
+    left: 10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mail-contact{
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 1em;
+}
+
+.mail-contact li{
+    position: relative;
+    padding-left: 2em;
+}
+
+.mail-contact li:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('./img/mensaje.png') ;
+    background-size: cover;
+    background-position: center;
+    left: 10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cellphone-contact{
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 1em;
+}
+
+.cellphone-contact li{
+    position: relative;
+    padding-left: 2em;
+}
+
+.cellphone-contact li:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url('./img/telefono.png') ;
+    background-size: cover;
+    background-position: center;
+    left: 10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.map-responsive{
+    float: right;
+    width: 490px;
+    height: 425px;
+    border-radius: 0 7px 7px 0;
+    margin-top: -26em;
+    margin-right: 15em;
+    margin-bottom: 15em;
 }
 
 @media (max-width:1200px){
