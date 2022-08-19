@@ -163,14 +163,67 @@ header nav a:hover{
     justify-content: center;
     text-align: center;
     width: 50%;
-    height: 20vh
+    height: 20vh;
+    
 }
 
 .descripcion p{
     font-size: 1.5em;
     font-weight: 900;
     font-family: 'Oswald', sans-serif;
+    margin-top: 1.5em;
+}
 
+.ventajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    gap: 1em;
+}
+
+.titulo-ventajas{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:'Lato', sans-serif;
+}
+
+.parrafo-ventajas{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family:'Lato', sans-serif;
+}
+
+.container-section-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-element-info{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-element-info p{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 1.25em;
+    width: 75%;
+    font-family:'Lato', sans-serif;
+}
+
+.container-element-info img{
+    width: 25%;
 }
 
 @media (max-width:1200px){
